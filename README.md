@@ -32,7 +32,7 @@ def example():
 ```
         
 
-In the HTML forms you want to generate a captcha: `{{ captcha_html(captcha) }}`
+In the HTML forms you want to generate a captcha: `{{ captcha_html(captcha) | safe }}`
 
 This will create something like this:
 ```
